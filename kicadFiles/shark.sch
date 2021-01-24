@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:shark-cache
 EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Mechanical:MountingHole H3
+L shark-rescue:MountingHole-Mechanical H3
 U 1 1 5BF27058
 P 15225 3550
 F 0 "H3" H 15325 3596 50  0000 L CNN
@@ -26,7 +25,7 @@ F 3 "~" H 15225 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H4
+L shark-rescue:MountingHole_Pad-Mechanical H4
 U 1 1 5BF2790A
 P 15275 3750
 F 0 "H4" V 15325 3600 50  0000 L CNN
@@ -37,7 +36,7 @@ F 3 "~" H 15275 3750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Mechanical:MountingHole H1
+L shark-rescue:MountingHole-Mechanical H1
 U 1 1 5BF463E3
 P 15225 3150
 F 0 "H1" H 15325 3196 50  0000 L CNN
@@ -48,7 +47,7 @@ F 3 "~" H 15225 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H2
+L shark-rescue:MountingHole-Mechanical H2
 U 1 1 5BF463E9
 P 15225 3350
 F 0 "H2" V 15275 3150 50  0000 L CNN
@@ -59,7 +58,7 @@ F 3 "~" H 15225 3350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Mechanical:MountingHole H5
+L shark-rescue:MountingHole-Mechanical H5
 U 1 1 5BF64E7F
 P 15225 3950
 F 0 "H5" H 15325 3996 50  0000 L CNN
@@ -70,7 +69,7 @@ F 3 "~" H 15225 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H6
+L shark-rescue:MountingHole-Mechanical H6
 U 1 1 5BF64E85
 P 15225 4150
 F 0 "H6" H 15325 4196 50  0000 L CNN
@@ -81,7 +80,7 @@ F 3 "~" H 15225 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW1
+L shark-rescue:MXSwitch-acheronSymbols SW1
 U 1 1 5C015E05
 P 2475 3975
 F 0 "SW1" H 2400 4025 50  0000 L CNN
@@ -92,7 +91,7 @@ F 3 "" H 2475 3975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D1
+L shark-rescue:D-Device D1
 U 1 1 5C0AF46E
 P 2475 3450
 F 0 "D1" V 2444 3529 31  0000 L CNN
@@ -109,7 +108,7 @@ Wire Wire Line
 Wire Wire Line
 	2475 3300 2475 3275
 $Comp
-L acheronSymbols:MXSwitch SW2
+L shark-rescue:MXSwitch-acheronSymbols SW2
 U 1 1 5C0D3AD9
 P 3475 3975
 F 0 "SW2" H 3400 4025 50  0000 L CNN
@@ -120,7 +119,7 @@ F 3 "" H 3475 3975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D2
+L shark-rescue:D-Device D2
 U 1 1 5C0D3AE0
 P 3475 3450
 F 0 "D2" V 3444 3529 31  0000 L CNN
@@ -144,7 +143,7 @@ Wire Wire Line
 Wire Wire Line
 	3125 3975 2975 3975
 $Comp
-L acheronSymbols:MXSwitch SW3
+L shark-rescue:MXSwitch-acheronSymbols SW3
 U 1 1 5C115BC6
 P 4475 3975
 F 0 "SW3" H 4400 4025 50  0000 L CNN
@@ -155,7 +154,7 @@ F 3 "" H 4475 3975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D3
+L shark-rescue:D-Device D3
 U 1 1 5C115BCD
 P 4475 3450
 F 0 "D3" V 4444 3529 31  0000 L CNN
@@ -170,7 +169,7 @@ Wire Wire Line
 Wire Wire Line
 	4475 3300 4475 3275
 $Comp
-L acheronSymbols:MXSwitch SW4
+L shark-rescue:MXSwitch-acheronSymbols SW4
 U 1 1 5C115BD7
 P 5475 3975
 F 0 "SW4" H 5400 4025 50  0000 L CNN
@@ -181,7 +180,7 @@ F 3 "" H 5475 3975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D4
+L shark-rescue:D-Device D4
 U 1 1 5C115BDE
 P 5475 3450
 F 0 "D4" V 5444 3529 31  0000 L CNN
@@ -203,7 +202,7 @@ Wire Wire Line
 Wire Wire Line
 	5125 3975 4975 3975
 $Comp
-L acheronSymbols:MXSwitch SW5
+L shark-rescue:MXSwitch-acheronSymbols SW5
 U 1 1 5C12DA31
 P 6475 3975
 F 0 "SW5" H 6400 4025 50  0000 L CNN
@@ -214,7 +213,7 @@ F 3 "" H 6475 3975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D5
+L shark-rescue:D-Device D5
 U 1 1 5C12DA38
 P 6475 3450
 F 0 "D5" V 6444 3529 31  0000 L CNN
@@ -229,7 +228,7 @@ Wire Wire Line
 Wire Wire Line
 	6475 3300 6475 3275
 $Comp
-L acheronSymbols:MXSwitch SW6
+L shark-rescue:MXSwitch-acheronSymbols SW6
 U 1 1 5C12DA42
 P 7475 3975
 F 0 "SW6" H 7400 4025 50  0000 L CNN
@@ -240,7 +239,7 @@ F 3 "" H 7475 3975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D6
+L shark-rescue:D-Device D6
 U 1 1 5C12DA49
 P 7475 3450
 F 0 "D6" V 7444 3529 31  0000 L CNN
@@ -265,7 +264,7 @@ Wire Wire Line
 Wire Wire Line
 	7125 3975 6975 3975
 $Comp
-L acheronSymbols:MXSwitch SW7
+L shark-rescue:MXSwitch-acheronSymbols SW7
 U 1 1 5C12DA5E
 P 8475 3975
 F 0 "SW7" H 8400 4025 50  0000 L CNN
@@ -276,7 +275,7 @@ F 3 "" H 8475 3975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D7
+L shark-rescue:D-Device D7
 U 1 1 5C12DA65
 P 8475 3450
 F 0 "D7" V 8444 3529 31  0000 L CNN
@@ -291,7 +290,7 @@ Wire Wire Line
 Wire Wire Line
 	8475 3300 8475 3275
 $Comp
-L acheronSymbols:MXSwitch SW8
+L shark-rescue:MXSwitch-acheronSymbols SW8
 U 1 1 5C12DA6F
 P 9475 3975
 F 0 "SW8" H 9400 4025 50  0000 L CNN
@@ -302,7 +301,7 @@ F 3 "" H 9475 3975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D8
+L shark-rescue:D-Device D8
 U 1 1 5C12DA76
 P 9475 3450
 F 0 "D8" V 9444 3529 31  0000 L CNN
@@ -324,7 +323,7 @@ Wire Wire Line
 Wire Wire Line
 	9125 3975 8975 3975
 $Comp
-L acheronSymbols:MXSwitch SW9
+L shark-rescue:MXSwitch-acheronSymbols SW9
 U 1 1 5C15A34B
 P 10475 3975
 F 0 "SW9" H 10400 4025 50  0000 L CNN
@@ -335,7 +334,7 @@ F 3 "" H 10475 3975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D9
+L shark-rescue:D-Device D9
 U 1 1 5C15A352
 P 10475 3450
 F 0 "D9" V 10444 3529 31  0000 L CNN
@@ -350,7 +349,7 @@ Wire Wire Line
 Wire Wire Line
 	10475 3300 10475 3275
 $Comp
-L acheronSymbols:MXSwitch SW10
+L shark-rescue:MXSwitch-acheronSymbols SW10
 U 1 1 5C15A35C
 P 11475 3975
 F 0 "SW10" H 11375 4025 50  0000 L CNN
@@ -361,7 +360,7 @@ F 3 "" H 11475 3975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D10
+L shark-rescue:D-Device D10
 U 1 1 5C15A363
 P 11475 3450
 F 0 "D10" V 11444 3529 31  0000 L CNN
@@ -384,7 +383,7 @@ Wire Wire Line
 Wire Wire Line
 	11125 3975 10975 3975
 $Comp
-L acheronSymbols:MXSwitch SW11
+L shark-rescue:MXSwitch-acheronSymbols SW11
 U 1 1 5C15A378
 P 12475 3975
 F 0 "SW11" H 12375 4025 50  0000 L CNN
@@ -395,7 +394,7 @@ F 3 "" H 12475 3975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D11
+L shark-rescue:D-Device D11
 U 1 1 5C15A37F
 P 12475 3450
 F 0 "D11" V 12444 3529 31  0000 L CNN
@@ -410,7 +409,7 @@ Wire Wire Line
 Wire Wire Line
 	12475 3300 12475 3275
 $Comp
-L acheronSymbols:MXSwitch SW12
+L shark-rescue:MXSwitch-acheronSymbols SW12
 U 1 1 5C15A389
 P 13475 3975
 F 0 "SW12" H 13375 4025 50  0000 L CNN
@@ -421,7 +420,7 @@ F 3 "" H 13475 3975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D12
+L shark-rescue:D-Device D12
 U 1 1 5C15A390
 P 13475 3450
 F 0 "D12" V 13444 3529 31  0000 L CNN
@@ -453,7 +452,7 @@ Connection ~ 12475 3275
 Wire Wire Line
 	1625 4300 2475 4300
 $Comp
-L acheronSymbols:MXSwitch SW13
+L shark-rescue:MXSwitch-acheronSymbols SW13
 U 1 1 5C1B87E3
 P 2475 5000
 F 0 "SW13" H 2375 5050 50  0000 L CNN
@@ -464,7 +463,7 @@ F 3 "" H 2475 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D13
+L shark-rescue:D-Device D13
 U 1 1 5C1B87EA
 P 2475 4475
 F 0 "D13" V 2444 4554 31  0000 L CNN
@@ -479,7 +478,7 @@ Wire Wire Line
 Wire Wire Line
 	2475 4325 2475 4300
 $Comp
-L acheronSymbols:MXSwitch SW14
+L shark-rescue:MXSwitch-acheronSymbols SW14
 U 1 1 5C1B87F4
 P 3475 5000
 F 0 "SW14" H 3375 5050 50  0000 L CNN
@@ -490,7 +489,7 @@ F 3 "" H 3475 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D14
+L shark-rescue:D-Device D14
 U 1 1 5C1B87FB
 P 3475 4475
 F 0 "D14" V 3444 4554 31  0000 L CNN
@@ -513,7 +512,7 @@ Wire Wire Line
 Wire Wire Line
 	3125 5000 2975 5000
 $Comp
-L acheronSymbols:MXSwitch SW15
+L shark-rescue:MXSwitch-acheronSymbols SW15
 U 1 1 5C1B880C
 P 4475 5000
 F 0 "SW15" H 4375 5050 50  0000 L CNN
@@ -524,7 +523,7 @@ F 3 "" H 4475 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D15
+L shark-rescue:D-Device D15
 U 1 1 5C1B8813
 P 4475 4475
 F 0 "D15" V 4444 4554 31  0000 L CNN
@@ -537,7 +536,7 @@ $EndComp
 Wire Wire Line
 	4475 4325 4475 4300
 $Comp
-L acheronSymbols:MXSwitch SW16
+L shark-rescue:MXSwitch-acheronSymbols SW16
 U 1 1 5C1B881C
 P 5475 5000
 F 0 "SW16" H 5375 5050 50  0000 L CNN
@@ -548,7 +547,7 @@ F 3 "" H 5475 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D16
+L shark-rescue:D-Device D16
 U 1 1 5C1B8823
 P 5475 4475
 F 0 "D16" V 5444 4554 31  0000 L CNN
@@ -570,7 +569,7 @@ Wire Wire Line
 Wire Wire Line
 	5125 5000 4975 5000
 $Comp
-L acheronSymbols:MXSwitch SW17
+L shark-rescue:MXSwitch-acheronSymbols SW17
 U 1 1 5C1B8832
 P 6475 5000
 F 0 "SW17" H 6375 5050 50  0000 L CNN
@@ -581,7 +580,7 @@ F 3 "" H 6475 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D17
+L shark-rescue:D-Device D17
 U 1 1 5C1B8839
 P 6475 4475
 F 0 "D17" V 6444 4554 31  0000 L CNN
@@ -596,7 +595,7 @@ Wire Wire Line
 Wire Wire Line
 	6475 4325 6475 4300
 $Comp
-L acheronSymbols:MXSwitch SW18
+L shark-rescue:MXSwitch-acheronSymbols SW18
 U 1 1 5C1B8842
 P 7475 5000
 F 0 "SW18" H 7375 5050 50  0000 L CNN
@@ -607,7 +606,7 @@ F 3 "" H 7475 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D18
+L shark-rescue:D-Device D18
 U 1 1 5C1B8849
 P 7475 4475
 F 0 "D18" V 7444 4554 31  0000 L CNN
@@ -632,7 +631,7 @@ Wire Wire Line
 Wire Wire Line
 	7125 5000 6975 5000
 $Comp
-L acheronSymbols:MXSwitch SW19
+L shark-rescue:MXSwitch-acheronSymbols SW19
 U 1 1 5C1B885A
 P 8475 5000
 F 0 "SW19" H 8375 5050 50  0000 L CNN
@@ -643,7 +642,7 @@ F 3 "" H 8475 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D19
+L shark-rescue:D-Device D19
 U 1 1 5C1B8861
 P 8475 4475
 F 0 "D19" V 8444 4554 31  0000 L CNN
@@ -658,7 +657,7 @@ Wire Wire Line
 Wire Wire Line
 	8475 4325 8475 4300
 $Comp
-L acheronSymbols:MXSwitch SW20
+L shark-rescue:MXSwitch-acheronSymbols SW20
 U 1 1 5C1B886A
 P 9475 5000
 F 0 "SW20" H 9375 5050 50  0000 L CNN
@@ -669,7 +668,7 @@ F 3 "" H 9475 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D20
+L shark-rescue:D-Device D20
 U 1 1 5C1B8871
 P 9475 4475
 F 0 "D20" V 9444 4554 31  0000 L CNN
@@ -691,7 +690,7 @@ Wire Wire Line
 Wire Wire Line
 	9125 5000 8975 5000
 $Comp
-L acheronSymbols:MXSwitch SW21
+L shark-rescue:MXSwitch-acheronSymbols SW21
 U 1 1 5C1B8880
 P 10475 5000
 F 0 "SW21" H 10375 5050 50  0000 L CNN
@@ -702,7 +701,7 @@ F 3 "" H 10475 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D21
+L shark-rescue:D-Device D21
 U 1 1 5C1B8887
 P 10475 4475
 F 0 "D21" V 10444 4554 31  0000 L CNN
@@ -717,7 +716,7 @@ Wire Wire Line
 Wire Wire Line
 	10475 4325 10475 4300
 $Comp
-L acheronSymbols:MXSwitch SW22
+L shark-rescue:MXSwitch-acheronSymbols SW22
 U 1 1 5C1B8890
 P 11475 5000
 F 0 "SW22" H 11375 5050 50  0000 L CNN
@@ -728,7 +727,7 @@ F 3 "" H 11475 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D22
+L shark-rescue:D-Device D22
 U 1 1 5C1B8897
 P 11475 4475
 F 0 "D22" V 11444 4554 31  0000 L CNN
@@ -751,7 +750,7 @@ Wire Wire Line
 Wire Wire Line
 	11125 5000 10975 5000
 $Comp
-L acheronSymbols:MXSwitch SW23
+L shark-rescue:MXSwitch-acheronSymbols SW23
 U 1 1 5C1B88A7
 P 12475 5000
 F 0 "SW23" H 12400 5050 50  0000 L CNN
@@ -762,7 +761,7 @@ F 3 "" H 12475 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D23
+L shark-rescue:D-Device D23
 U 1 1 5C1B88AE
 P 12475 4475
 F 0 "D23" V 12444 4554 31  0000 L CNN
@@ -777,7 +776,7 @@ Wire Wire Line
 Wire Wire Line
 	12475 4325 12475 4300
 $Comp
-L acheronSymbols:MXSwitch SW24
+L shark-rescue:MXSwitch-acheronSymbols SW24
 U 1 1 5C1B88B7
 P 13475 5000
 F 0 "SW24" H 13375 5050 50  0000 L CNN
@@ -788,7 +787,7 @@ F 3 "" H 13475 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D24
+L shark-rescue:D-Device D24
 U 1 1 5C1B88BE
 P 13475 4475
 F 0 "D24" V 13444 4554 31  0000 L CNN
@@ -820,7 +819,7 @@ Connection ~ 12475 4300
 Wire Wire Line
 	1625 5325 2475 5325
 $Comp
-L acheronSymbols:MXSwitch SW25
+L shark-rescue:MXSwitch-acheronSymbols SW25
 U 1 1 5C1D740D
 P 2475 6025
 F 0 "SW25" H 2375 6075 50  0000 L CNN
@@ -831,7 +830,7 @@ F 3 "" H 2475 6025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D25
+L shark-rescue:D-Device D25
 U 1 1 5C1D7414
 P 2475 5500
 F 0 "D25" V 2444 5579 31  0000 L CNN
@@ -846,7 +845,7 @@ Wire Wire Line
 Wire Wire Line
 	2475 5350 2475 5325
 $Comp
-L acheronSymbols:MXSwitch SW26
+L shark-rescue:MXSwitch-acheronSymbols SW26
 U 1 1 5C1D741D
 P 3475 6025
 F 0 "SW26" H 3375 6075 50  0000 L CNN
@@ -857,7 +856,7 @@ F 3 "" H 3475 6025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D26
+L shark-rescue:D-Device D26
 U 1 1 5C1D7424
 P 3475 5500
 F 0 "D26" V 3444 5579 31  0000 L CNN
@@ -880,7 +879,7 @@ Wire Wire Line
 Wire Wire Line
 	3125 6025 2975 6025
 $Comp
-L acheronSymbols:MXSwitch SW27
+L shark-rescue:MXSwitch-acheronSymbols SW27
 U 1 1 5C1D7433
 P 4475 6025
 F 0 "SW27" H 4375 6075 50  0000 L CNN
@@ -891,7 +890,7 @@ F 3 "" H 4475 6025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D27
+L shark-rescue:D-Device D27
 U 1 1 5C1D743A
 P 4475 5500
 F 0 "D27" V 4444 5579 31  0000 L CNN
@@ -906,7 +905,7 @@ Wire Wire Line
 Wire Wire Line
 	4475 5350 4475 5325
 $Comp
-L acheronSymbols:MXSwitch SW28
+L shark-rescue:MXSwitch-acheronSymbols SW28
 U 1 1 5C1D7443
 P 5475 6025
 F 0 "SW28" H 5375 6075 50  0000 L CNN
@@ -917,7 +916,7 @@ F 3 "" H 5475 6025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D28
+L shark-rescue:D-Device D28
 U 1 1 5C1D744A
 P 5475 5500
 F 0 "D28" V 5444 5579 31  0000 L CNN
@@ -939,7 +938,7 @@ Wire Wire Line
 Wire Wire Line
 	5125 6025 4975 6025
 $Comp
-L acheronSymbols:MXSwitch SW29
+L shark-rescue:MXSwitch-acheronSymbols SW29
 U 1 1 5C1D7457
 P 6475 6025
 F 0 "SW29" H 6375 6075 50  0000 L CNN
@@ -950,7 +949,7 @@ F 3 "" H 6475 6025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D29
+L shark-rescue:D-Device D29
 U 1 1 5C1D745E
 P 6475 5500
 F 0 "D29" V 6444 5579 31  0000 L CNN
@@ -965,7 +964,7 @@ Wire Wire Line
 Wire Wire Line
 	6475 5350 6475 5325
 $Comp
-L acheronSymbols:MXSwitch SW30
+L shark-rescue:MXSwitch-acheronSymbols SW30
 U 1 1 5C1D7467
 P 7475 6025
 F 0 "SW30" H 7375 6075 50  0000 L CNN
@@ -976,7 +975,7 @@ F 3 "" H 7475 6025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D30
+L shark-rescue:D-Device D30
 U 1 1 5C1D746E
 P 7475 5500
 F 0 "D30" V 7444 5579 31  0000 L CNN
@@ -1001,7 +1000,7 @@ Wire Wire Line
 Wire Wire Line
 	7125 6025 6975 6025
 $Comp
-L acheronSymbols:MXSwitch SW31
+L shark-rescue:MXSwitch-acheronSymbols SW31
 U 1 1 5C1D747D
 P 8475 6025
 F 0 "SW31" H 8375 6075 50  0000 L CNN
@@ -1012,7 +1011,7 @@ F 3 "" H 8475 6025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D31
+L shark-rescue:D-Device D31
 U 1 1 5C1D7484
 P 8475 5500
 F 0 "D31" V 8444 5579 31  0000 L CNN
@@ -1027,7 +1026,7 @@ Wire Wire Line
 Wire Wire Line
 	8475 5350 8475 5325
 $Comp
-L acheronSymbols:MXSwitch SW32
+L shark-rescue:MXSwitch-acheronSymbols SW32
 U 1 1 5C1D748D
 P 9475 6025
 F 0 "SW32" H 9375 6075 50  0000 L CNN
@@ -1038,7 +1037,7 @@ F 3 "" H 9475 6025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D32
+L shark-rescue:D-Device D32
 U 1 1 5C1D7494
 P 9475 5500
 F 0 "D32" V 9444 5579 31  0000 L CNN
@@ -1060,7 +1059,7 @@ Wire Wire Line
 Wire Wire Line
 	9125 6025 8975 6025
 $Comp
-L acheronSymbols:MXSwitch SW33
+L shark-rescue:MXSwitch-acheronSymbols SW33
 U 1 1 5C1D74A1
 P 10475 6025
 F 0 "SW33" H 10375 6075 50  0000 L CNN
@@ -1071,7 +1070,7 @@ F 3 "" H 10475 6025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D33
+L shark-rescue:D-Device D33
 U 1 1 5C1D74A8
 P 10475 5500
 F 0 "D33" V 10444 5579 31  0000 L CNN
@@ -1086,7 +1085,7 @@ Wire Wire Line
 Wire Wire Line
 	10475 5350 10475 5325
 $Comp
-L acheronSymbols:MXSwitch SW34
+L shark-rescue:MXSwitch-acheronSymbols SW34
 U 1 1 5C1D74B1
 P 11475 6025
 F 0 "SW34" H 11375 6075 50  0000 L CNN
@@ -1097,7 +1096,7 @@ F 3 "" H 11475 6025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D34
+L shark-rescue:D-Device D34
 U 1 1 5C1D74B8
 P 11475 5500
 F 0 "D34" V 11444 5579 31  0000 L CNN
@@ -1120,7 +1119,7 @@ Wire Wire Line
 Wire Wire Line
 	11125 6025 10975 6025
 $Comp
-L acheronSymbols:MXSwitch SW35
+L shark-rescue:MXSwitch-acheronSymbols SW35
 U 1 1 5C1D74C6
 P 12475 6025
 F 0 "SW35" H 12400 6075 50  0000 L CNN
@@ -1131,7 +1130,7 @@ F 3 "" H 12475 6025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D35
+L shark-rescue:D-Device D35
 U 1 1 5C1D74CD
 P 12475 5500
 F 0 "D35" V 12444 5579 31  0000 L CNN
@@ -1146,7 +1145,7 @@ Wire Wire Line
 Wire Wire Line
 	12475 5350 12475 5325
 $Comp
-L acheronSymbols:MXSwitch SW36
+L shark-rescue:MXSwitch-acheronSymbols SW36
 U 1 1 5C1D74D6
 P 13475 6025
 F 0 "SW36" H 13375 6075 50  0000 L CNN
@@ -1157,7 +1156,7 @@ F 3 "" H 13475 6025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D36
+L shark-rescue:D-Device D36
 U 1 1 5C1D74DD
 P 13475 5500
 F 0 "D36" V 13444 5579 31  0000 L CNN
@@ -1255,7 +1254,7 @@ Wire Wire Line
 Wire Wire Line
 	1625 6350 2475 6350
 $Comp
-L acheronSymbols:MXSwitch SW37
+L shark-rescue:MXSwitch-acheronSymbols SW37
 U 1 1 5C277799
 P 2475 7050
 F 0 "SW37" H 2375 7100 50  0000 L CNN
@@ -1266,7 +1265,7 @@ F 3 "" H 2475 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D37
+L shark-rescue:D-Device D37
 U 1 1 5C2777A0
 P 2475 6525
 F 0 "D37" V 2444 6604 31  0000 L CNN
@@ -1281,7 +1280,7 @@ Wire Wire Line
 Wire Wire Line
 	2475 6375 2475 6350
 $Comp
-L acheronSymbols:MXSwitch SW38
+L shark-rescue:MXSwitch-acheronSymbols SW38
 U 1 1 5C2777A9
 P 3475 7050
 F 0 "SW38" H 3375 7100 50  0000 L CNN
@@ -1292,7 +1291,7 @@ F 3 "" H 3475 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D38
+L shark-rescue:D-Device D38
 U 1 1 5C2777B0
 P 3475 6525
 F 0 "D38" V 3444 6604 31  0000 L CNN
@@ -1317,7 +1316,7 @@ Wire Wire Line
 Wire Wire Line
 	3125 7050 2975 7050
 $Comp
-L acheronSymbols:MXSwitch SW39
+L shark-rescue:MXSwitch-acheronSymbols SW39
 U 1 1 5C2777BF
 P 4475 7050
 F 0 "SW39" H 4375 7100 50  0000 L CNN
@@ -1328,7 +1327,7 @@ F 3 "" H 4475 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D39
+L shark-rescue:D-Device D39
 U 1 1 5C2777C6
 P 4475 6525
 F 0 "D39" V 4444 6604 31  0000 L CNN
@@ -1343,7 +1342,7 @@ Wire Wire Line
 Wire Wire Line
 	4475 6375 4475 6350
 $Comp
-L acheronSymbols:MXSwitch SW40
+L shark-rescue:MXSwitch-acheronSymbols SW40
 U 1 1 5C2777CF
 P 5475 7050
 F 0 "SW40" H 5375 7100 50  0000 L CNN
@@ -1354,7 +1353,7 @@ F 3 "" H 5475 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D40
+L shark-rescue:D-Device D40
 U 1 1 5C2777D6
 P 5475 6525
 F 0 "D40" V 5444 6604 31  0000 L CNN
@@ -1376,7 +1375,7 @@ Wire Wire Line
 Wire Wire Line
 	5125 7050 4975 7050
 $Comp
-L acheronSymbols:MXSwitch SW41
+L shark-rescue:MXSwitch-acheronSymbols SW41
 U 1 1 5C2777E3
 P 6475 7050
 F 0 "SW41" H 6375 7100 50  0000 L CNN
@@ -1387,7 +1386,7 @@ F 3 "" H 6475 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D41
+L shark-rescue:D-Device D41
 U 1 1 5C2777EA
 P 6475 6525
 F 0 "D41" V 6444 6604 31  0000 L CNN
@@ -1402,7 +1401,7 @@ Wire Wire Line
 Wire Wire Line
 	6475 6375 6475 6350
 $Comp
-L acheronSymbols:MXSwitch SW42
+L shark-rescue:MXSwitch-acheronSymbols SW42
 U 1 1 5C2777F3
 P 7475 7050
 F 0 "SW42" H 7375 7100 50  0000 L CNN
@@ -1413,7 +1412,7 @@ F 3 "" H 7475 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D42
+L shark-rescue:D-Device D42
 U 1 1 5C2777FA
 P 7475 6525
 F 0 "D42" V 7444 6604 31  0000 L CNN
@@ -1436,7 +1435,7 @@ Wire Wire Line
 Wire Wire Line
 	7125 7050 6975 7050
 $Comp
-L acheronSymbols:MXSwitch SW43
+L shark-rescue:MXSwitch-acheronSymbols SW43
 U 1 1 5C277809
 P 8475 7050
 F 0 "SW43" H 8375 7100 50  0000 L CNN
@@ -1447,7 +1446,7 @@ F 3 "" H 8475 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D43
+L shark-rescue:D-Device D43
 U 1 1 5C277810
 P 8475 6525
 F 0 "D43" V 8444 6604 31  0000 L CNN
@@ -1462,7 +1461,7 @@ Wire Wire Line
 Wire Wire Line
 	8475 6375 8475 6350
 $Comp
-L acheronSymbols:MXSwitch SW44
+L shark-rescue:MXSwitch-acheronSymbols SW44
 U 1 1 5C277819
 P 9475 7050
 F 0 "SW44" H 9375 7100 50  0000 L CNN
@@ -1473,7 +1472,7 @@ F 3 "" H 9475 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D44
+L shark-rescue:D-Device D44
 U 1 1 5C277820
 P 9475 6525
 F 0 "D44" V 9444 6604 31  0000 L CNN
@@ -1495,7 +1494,7 @@ Wire Wire Line
 Wire Wire Line
 	9125 7050 8975 7050
 $Comp
-L acheronSymbols:MXSwitch SW45
+L shark-rescue:MXSwitch-acheronSymbols SW45
 U 1 1 5C27782D
 P 10475 7050
 F 0 "SW45" H 10375 7100 50  0000 L CNN
@@ -1506,7 +1505,7 @@ F 3 "" H 10475 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D45
+L shark-rescue:D-Device D45
 U 1 1 5C277834
 P 10475 6525
 F 0 "D45" V 10444 6604 31  0000 L CNN
@@ -1521,7 +1520,7 @@ Wire Wire Line
 Wire Wire Line
 	10475 6375 10475 6350
 $Comp
-L acheronSymbols:MXSwitch SW46
+L shark-rescue:MXSwitch-acheronSymbols SW46
 U 1 1 5C27783D
 P 11475 7050
 F 0 "SW46" H 11375 7100 50  0000 L CNN
@@ -1532,7 +1531,7 @@ F 3 "" H 11475 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D46
+L shark-rescue:D-Device D46
 U 1 1 5C277844
 P 11475 6525
 F 0 "D46" V 11444 6604 31  0000 L CNN
@@ -1555,7 +1554,7 @@ Wire Wire Line
 Wire Wire Line
 	11125 7050 10975 7050
 $Comp
-L acheronSymbols:MXSwitch SW47
+L shark-rescue:MXSwitch-acheronSymbols SW47
 U 1 1 5C277852
 P 12475 7050
 F 0 "SW47" H 12400 7100 50  0000 L CNN
@@ -1566,7 +1565,7 @@ F 3 "" H 12475 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D47
+L shark-rescue:D-Device D47
 U 1 1 5C277859
 P 12475 6525
 F 0 "D47" V 12444 6604 31  0000 L CNN
@@ -1581,7 +1580,7 @@ Wire Wire Line
 Wire Wire Line
 	12475 6375 12475 6350
 $Comp
-L acheronSymbols:MXSwitch SW48
+L shark-rescue:MXSwitch-acheronSymbols SW48
 U 1 1 5C277862
 P 13475 7050
 F 0 "SW48" H 13375 7100 50  0000 L CNN
@@ -1592,7 +1591,7 @@ F 3 "" H 13475 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D48
+L shark-rescue:D-Device D48
 U 1 1 5C277869
 P 13475 6525
 F 0 "D48" V 13444 6604 31  0000 L CNN
@@ -1630,7 +1629,7 @@ Wire Wire Line
 Wire Wire Line
 	7975 7800 7975 7050
 $Comp
-L acheronSymbols:MXSwitch SW50
+L shark-rescue:MXSwitch-acheronSymbols SW50
 U 1 1 5C2D3025
 P 7475 7800
 F 0 "SW50" H 7375 7850 50  0000 L CNN
@@ -1641,7 +1640,7 @@ F 3 "" H 7475 7800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW51
+L shark-rescue:MXSwitch-acheronSymbols SW51
 U 1 1 5C358C0D
 P 8475 7800
 F 0 "SW51" H 8375 7850 50  0000 L CNN
@@ -1652,7 +1651,7 @@ F 3 "" H 8475 7800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW49
+L shark-rescue:MXSwitch-acheronSymbols SW49
 U 1 1 5C4B27E7
 P 6475 7800
 F 0 "SW49" H 6375 7850 50  0000 L CNN
@@ -1735,7 +1734,7 @@ Wire Wire Line
 Wire Wire Line
 	8325 12275 8325 12325
 $Comp
-L Device:C_Small CSH1
+L shark-rescue:C_Small-Device CSH1
 U 1 1 5C192852
 P 8325 12475
 F 0 "CSH1" V 8275 12625 30  0000 R CNN
@@ -1746,7 +1745,7 @@ F 3 "~" H 8325 12475 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R RSH1
+L shark-rescue:R-Device RSH1
 U 1 1 5C1953C2
 P 8125 12475
 F 0 "RSH1" V 8050 12475 30  0000 C CNN
@@ -1780,7 +1779,7 @@ F 3 "" H 8125 12675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Polyfuse_Small F1
+L shark-rescue:Polyfuse_Small-Device F1
 U 1 1 5C25B88F
 P 15775 9850
 F 0 "F1" V 15614 9850 31  0000 C CNN
@@ -1793,7 +1792,7 @@ $EndComp
 Text Notes 15650 9900 0    20   ~ 0
 Polyfuse PPTC RTC 
 $Comp
-L Device:D_Schottky_Small DF1
+L shark-rescue:D_Schottky_Small-Device DF1
 U 1 1 5C2FFE6A
 P 16025 10000
 F 0 "DF1" V 16025 9825 31  0000 L CNN
@@ -1822,7 +1821,7 @@ F 3 "" H 16025 10150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small CESD1
+L shark-rescue:C_Small-Device CESD1
 U 1 1 5C391EB2
 P 18275 12225
 F 0 "CESD1" V 18175 12225 31  0000 C CNN
@@ -1833,7 +1832,7 @@ F 3 "~" H 18275 12225 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R RESD1
+L shark-rescue:R-Device RESD1
 U 1 1 5C391EB9
 P 18075 12225
 F 0 "RESD1" V 17975 12225 30  0000 C CNN
@@ -1926,7 +1925,7 @@ Col11
 Text GLabel 12975 3000 1    50   Input ~ 0
 Col12
 $Comp
-L Device:R_Small RL1
+L shark-rescue:R_Small-Device RL1
 U 1 1 5C1A3269
 P 2875 10300
 F 0 "RL1" H 2934 10331 31  0000 L CNN
@@ -1937,7 +1936,7 @@ F 3 "~" H 2875 10300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL2
+L shark-rescue:R_Small-Device RL2
 U 1 1 5C1A4AA9
 P 3150 10300
 F 0 "RL2" H 3209 10331 31  0000 L CNN
@@ -1948,7 +1947,7 @@ F 3 "~" H 3150 10300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL3
+L shark-rescue:R_Small-Device RL3
 U 1 1 5C1C47E2
 P 3425 10300
 F 0 "RL3" H 3484 10331 31  0000 L CNN
@@ -1959,7 +1958,7 @@ F 3 "~" H 3425 10300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL4
+L shark-rescue:R_Small-Device RL4
 U 1 1 5C1C47F0
 P 3700 10300
 F 0 "RL4" H 3759 10331 31  0000 L CNN
@@ -1970,7 +1969,7 @@ F 3 "~" H 3700 10300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL5
+L shark-rescue:R_Small-Device RL5
 U 1 1 5C1E4B19
 P 3975 10300
 F 0 "RL5" H 4034 10331 31  0000 L CNN
@@ -1981,7 +1980,7 @@ F 3 "~" H 3975 10300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL6
+L shark-rescue:R_Small-Device RL6
 U 1 1 5C1E4B27
 P 4250 10300
 F 0 "RL6" H 4309 10331 31  0000 L CNN
@@ -1992,7 +1991,7 @@ F 3 "~" H 4250 10300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL7
+L shark-rescue:R_Small-Device RL7
 U 1 1 5C1E4B35
 P 4525 10300
 F 0 "RL7" H 4584 10331 31  0000 L CNN
@@ -2003,7 +2002,7 @@ F 3 "~" H 4525 10300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL8
+L shark-rescue:R_Small-Device RL8
 U 1 1 5C1E4B43
 P 4800 10300
 F 0 "RL8" H 4859 10331 31  0000 L CNN
@@ -2014,7 +2013,7 @@ F 3 "~" H 4800 10300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL9
+L shark-rescue:R_Small-Device RL9
 U 1 1 5C204AA0
 P 5075 10300
 F 0 "RL9" H 5134 10331 31  0000 L CNN
@@ -2025,7 +2024,7 @@ F 3 "~" H 5075 10300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL10
+L shark-rescue:R_Small-Device RL10
 U 1 1 5C204AAE
 P 5350 10300
 F 0 "RL10" H 5409 10331 31  0000 L CNN
@@ -2036,7 +2035,7 @@ F 3 "~" H 5350 10300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL11
+L shark-rescue:R_Small-Device RL11
 U 1 1 5C204ABC
 P 5625 10300
 F 0 "RL11" H 5684 10331 31  0000 L CNN
@@ -2047,7 +2046,7 @@ F 3 "~" H 5625 10300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL12
+L shark-rescue:R_Small-Device RL12
 U 1 1 5C204ACA
 P 5900 10300
 F 0 "RL12" H 5959 10331 31  0000 L CNN
@@ -2058,7 +2057,7 @@ F 3 "~" H 5900 10300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL13
+L shark-rescue:R_Small-Device RL13
 U 1 1 5C228515
 P 2875 10975
 F 0 "RL13" H 2934 11006 31  0000 L CNN
@@ -2069,7 +2068,7 @@ F 3 "~" H 2875 10975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL14
+L shark-rescue:R_Small-Device RL14
 U 1 1 5C228523
 P 3150 10975
 F 0 "RL14" H 3209 11006 31  0000 L CNN
@@ -2080,7 +2079,7 @@ F 3 "~" H 3150 10975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL15
+L shark-rescue:R_Small-Device RL15
 U 1 1 5C228531
 P 3425 10975
 F 0 "RL15" H 3484 11006 31  0000 L CNN
@@ -2091,7 +2090,7 @@ F 3 "~" H 3425 10975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL16
+L shark-rescue:R_Small-Device RL16
 U 1 1 5C22853F
 P 3700 10975
 F 0 "RL16" H 3759 11006 31  0000 L CNN
@@ -2102,7 +2101,7 @@ F 3 "~" H 3700 10975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL17
+L shark-rescue:R_Small-Device RL17
 U 1 1 5C22854D
 P 3975 10975
 F 0 "RL17" H 4034 11006 31  0000 L CNN
@@ -2113,7 +2112,7 @@ F 3 "~" H 3975 10975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL18
+L shark-rescue:R_Small-Device RL18
 U 1 1 5C22855B
 P 4250 10975
 F 0 "RL18" H 4309 11006 31  0000 L CNN
@@ -2124,7 +2123,7 @@ F 3 "~" H 4250 10975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL19
+L shark-rescue:R_Small-Device RL19
 U 1 1 5C228569
 P 4525 10975
 F 0 "RL19" H 4584 11006 31  0000 L CNN
@@ -2135,7 +2134,7 @@ F 3 "~" H 4525 10975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL20
+L shark-rescue:R_Small-Device RL20
 U 1 1 5C228577
 P 4800 10975
 F 0 "RL20" H 4859 11006 31  0000 L CNN
@@ -2146,7 +2145,7 @@ F 3 "~" H 4800 10975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL21
+L shark-rescue:R_Small-Device RL21
 U 1 1 5C228585
 P 5075 10975
 F 0 "RL21" H 5134 11006 31  0000 L CNN
@@ -2157,7 +2156,7 @@ F 3 "~" H 5075 10975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL22
+L shark-rescue:R_Small-Device RL22
 U 1 1 5C228593
 P 5350 10975
 F 0 "RL22" H 5409 11006 31  0000 L CNN
@@ -2168,7 +2167,7 @@ F 3 "~" H 5350 10975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL23
+L shark-rescue:R_Small-Device RL23
 U 1 1 5C2285A1
 P 5625 10975
 F 0 "RL23" H 5684 11006 31  0000 L CNN
@@ -2179,7 +2178,7 @@ F 3 "~" H 5625 10975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL24
+L shark-rescue:R_Small-Device RL24
 U 1 1 5C2285AF
 P 5900 10975
 F 0 "RL24" H 5959 11006 31  0000 L CNN
@@ -2190,7 +2189,7 @@ F 3 "~" H 5900 10975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL25
+L shark-rescue:R_Small-Device RL25
 U 1 1 5C26C143
 P 2875 11675
 F 0 "RL25" H 2934 11706 31  0000 L CNN
@@ -2201,7 +2200,7 @@ F 3 "~" H 2875 11675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL26
+L shark-rescue:R_Small-Device RL26
 U 1 1 5C26C151
 P 3150 11675
 F 0 "RL26" H 3209 11706 31  0000 L CNN
@@ -2212,7 +2211,7 @@ F 3 "~" H 3150 11675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL27
+L shark-rescue:R_Small-Device RL27
 U 1 1 5C26C15F
 P 3425 11675
 F 0 "RL27" H 3484 11706 31  0000 L CNN
@@ -2223,7 +2222,7 @@ F 3 "~" H 3425 11675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL28
+L shark-rescue:R_Small-Device RL28
 U 1 1 5C26C16D
 P 3700 11675
 F 0 "RL28" H 3759 11706 31  0000 L CNN
@@ -2234,7 +2233,7 @@ F 3 "~" H 3700 11675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL29
+L shark-rescue:R_Small-Device RL29
 U 1 1 5C26C17B
 P 3975 11675
 F 0 "RL29" H 4034 11706 31  0000 L CNN
@@ -2245,7 +2244,7 @@ F 3 "~" H 3975 11675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL30
+L shark-rescue:R_Small-Device RL30
 U 1 1 5C26C189
 P 4250 11675
 F 0 "RL30" H 4309 11706 31  0000 L CNN
@@ -2256,7 +2255,7 @@ F 3 "~" H 4250 11675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL31
+L shark-rescue:R_Small-Device RL31
 U 1 1 5C26C197
 P 4525 11675
 F 0 "RL31" H 4584 11706 31  0000 L CNN
@@ -2267,7 +2266,7 @@ F 3 "~" H 4525 11675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL32
+L shark-rescue:R_Small-Device RL32
 U 1 1 5C26C1A5
 P 4800 11675
 F 0 "RL32" H 4859 11706 31  0000 L CNN
@@ -2278,7 +2277,7 @@ F 3 "~" H 4800 11675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL33
+L shark-rescue:R_Small-Device RL33
 U 1 1 5C26C1B3
 P 5075 11675
 F 0 "RL33" H 5134 11706 31  0000 L CNN
@@ -2289,7 +2288,7 @@ F 3 "~" H 5075 11675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL34
+L shark-rescue:R_Small-Device RL34
 U 1 1 5C26C1C1
 P 5350 11675
 F 0 "RL34" H 5409 11706 31  0000 L CNN
@@ -2300,7 +2299,7 @@ F 3 "~" H 5350 11675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL35
+L shark-rescue:R_Small-Device RL35
 U 1 1 5C26C1CF
 P 5625 11675
 F 0 "RL35" H 5684 11706 31  0000 L CNN
@@ -2311,7 +2310,7 @@ F 3 "~" H 5625 11675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL36
+L shark-rescue:R_Small-Device RL36
 U 1 1 5C26C1DD
 P 5900 11675
 F 0 "RL36" H 5959 11706 31  0000 L CNN
@@ -2322,7 +2321,7 @@ F 3 "~" H 5900 11675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL37
+L shark-rescue:R_Small-Device RL37
 U 1 1 5C26C1EB
 P 2875 12350
 F 0 "RL37" H 2934 12381 31  0000 L CNN
@@ -2333,7 +2332,7 @@ F 3 "~" H 2875 12350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL38
+L shark-rescue:R_Small-Device RL38
 U 1 1 5C26C1F9
 P 3150 12350
 F 0 "RL38" H 3209 12381 31  0000 L CNN
@@ -2344,7 +2343,7 @@ F 3 "~" H 3150 12350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL39
+L shark-rescue:R_Small-Device RL39
 U 1 1 5C26C207
 P 3425 12350
 F 0 "RL39" H 3484 12381 31  0000 L CNN
@@ -2355,7 +2354,7 @@ F 3 "~" H 3425 12350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL40
+L shark-rescue:R_Small-Device RL40
 U 1 1 5C26C215
 P 3700 12350
 F 0 "RL40" H 3759 12381 31  0000 L CNN
@@ -2366,7 +2365,7 @@ F 3 "~" H 3700 12350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL41
+L shark-rescue:R_Small-Device RL41
 U 1 1 5C26C223
 P 3975 12350
 F 0 "RL41" H 4034 12381 31  0000 L CNN
@@ -2377,7 +2376,7 @@ F 3 "~" H 3975 12350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL42
+L shark-rescue:R_Small-Device RL42
 U 1 1 5C26C231
 P 4250 12350
 F 0 "RL42" H 4309 12381 31  0000 L CNN
@@ -2388,7 +2387,7 @@ F 3 "~" H 4250 12350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL43
+L shark-rescue:R_Small-Device RL43
 U 1 1 5C26C23F
 P 4525 12350
 F 0 "RL43" H 4584 12381 31  0000 L CNN
@@ -2399,7 +2398,7 @@ F 3 "~" H 4525 12350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL44
+L shark-rescue:R_Small-Device RL44
 U 1 1 5C26C24D
 P 4800 12350
 F 0 "RL44" H 4859 12381 31  0000 L CNN
@@ -2410,7 +2409,7 @@ F 3 "~" H 4800 12350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL45
+L shark-rescue:R_Small-Device RL45
 U 1 1 5C26C25B
 P 5075 12350
 F 0 "RL45" H 5134 12381 31  0000 L CNN
@@ -2421,7 +2420,7 @@ F 3 "~" H 5075 12350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL46
+L shark-rescue:R_Small-Device RL46
 U 1 1 5C26C269
 P 5350 12350
 F 0 "RL46" H 5409 12381 31  0000 L CNN
@@ -2432,7 +2431,7 @@ F 3 "~" H 5350 12350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL47
+L shark-rescue:R_Small-Device RL47
 U 1 1 5C26C277
 P 5625 12350
 F 0 "RL47" H 5684 12381 31  0000 L CNN
@@ -2443,7 +2442,7 @@ F 3 "~" H 5625 12350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RL48
+L shark-rescue:R_Small-Device RL48
 U 1 1 5C26C285
 P 5900 12350
 F 0 "RL48" H 5959 12381 31  0000 L CNN
@@ -2456,7 +2455,7 @@ $EndComp
 Text GLabel 2225 13000 0    50   Input ~ 0
 LED_PWM
 $Comp
-L Device:R_Small RSG1
+L shark-rescue:R_Small-Device RSG1
 U 1 1 5C2E1F91
 P 2400 13000
 F 0 "RSG1" V 2248 13000 31  0000 C CNN
@@ -2467,7 +2466,7 @@ F 3 "~" H 2400 13000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small RPG1
+L shark-rescue:R_Small-Device RPG1
 U 1 1 5C2E54A4
 P 2550 13175
 F 0 "RPG1" H 2491 13144 31  0000 R CNN
@@ -2744,7 +2743,7 @@ Connection ~ 2875 13375
 Wire Wire Line
 	2875 13375 2875 13475
 $Comp
-L acheronSymbols:LED LED1
+L shark-rescue:LED-acheronSymbols LED1
 U 1 1 5D1EBF5B
 P 2875 10550
 F 0 "LED1" V 2750 10575 20  0000 L CNN
@@ -2755,7 +2754,7 @@ F 3 "" H 2875 10550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:LED LED2
+L shark-rescue:LED-acheronSymbols LED2
 U 1 1 5D4ECDE0
 P 3150 10550
 F 0 "LED2" V 3025 10575 20  0000 L CNN
@@ -2766,7 +2765,7 @@ F 3 "" H 3150 10550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:LED LED3
+L shark-rescue:LED-acheronSymbols LED3
 U 1 1 5D4ED356
 P 3425 10550
 F 0 "LED3" V 3300 10575 20  0000 L CNN
@@ -2777,7 +2776,7 @@ F 3 "" H 3425 10550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:LED LED4
+L shark-rescue:LED-acheronSymbols LED4
 U 1 1 5D4ED9B7
 P 3700 10550
 F 0 "LED4" V 3575 10575 20  0000 L CNN
@@ -2788,7 +2787,7 @@ F 3 "" H 3700 10550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:LED LED5
+L shark-rescue:LED-acheronSymbols LED5
 U 1 1 5D4EE32F
 P 3975 10550
 F 0 "LED5" V 3850 10575 20  0000 L CNN
@@ -2799,7 +2798,7 @@ F 3 "" H 3975 10550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:LED LED6
+L shark-rescue:LED-acheronSymbols LED6
 U 1 1 5D4EE336
 P 4250 10550
 F 0 "LED6" V 4125 10575 20  0000 L CNN
@@ -2810,7 +2809,7 @@ F 3 "" H 4250 10550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:LED LED7
+L shark-rescue:LED-acheronSymbols LED7
 U 1 1 5D4EE33D
 P 4525 10550
 F 0 "LED7" V 4400 10575 20  0000 L CNN
@@ -2821,7 +2820,7 @@ F 3 "" H 4525 10550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:LED LED8
+L shark-rescue:LED-acheronSymbols LED8
 U 1 1 5D4EE344
 P 4800 10550
 F 0 "LED8" V 4675 10575 20  0000 L CNN
@@ -2832,7 +2831,7 @@ F 3 "" H 4800 10550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:LED LED9
+L shark-rescue:LED-acheronSymbols LED9
 U 1 1 5D533C76
 P 5075 10550
 F 0 "LED9" V 4950 10575 20  0000 L CNN
@@ -2843,7 +2842,7 @@ F 3 "" H 5075 10550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:LED LED10
+L shark-rescue:LED-acheronSymbols LED10
 U 1 1 5D533C7D
 P 5350 10550
 F 0 "LED10" V 5225 10575 20  0000 L CNN
@@ -2854,7 +2853,7 @@ F 3 "" H 5350 10550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:LED LED11
+L shark-rescue:LED-acheronSymbols LED11
 U 1 1 5D533C84
 P 5625 10550
 F 0 "LED11" V 5500 10575 20  0000 L CNN
@@ -2865,7 +2864,7 @@ F 3 "" H 5625 10550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:LED LED12
+L shark-rescue:LED-acheronSymbols LED12
 U 1 1 5D533C8B
 P 5900 10550
 F 0 "LED12" V 5775 10575 20  0000 L CNN
@@ -2876,7 +2875,7 @@ F 3 "" H 5900 10550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:LED LED13
+L shark-rescue:LED-acheronSymbols LED13
 U 1 1 5D93FD83
 P 2875 11275
 F 0 "LED13" V 2750 11300 20  0000 L CNN
@@ -2887,7 +2886,7 @@ F 3 "" H 2875 11275 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:LED LED14
+L shark-rescue:LED-acheronSymbols LED14
 U 1 1 5D93FD8A
 P 3150 11275
 F 0 "LED14" V 3025 11300 20  0000 L CNN
@@ -2898,7 +2897,7 @@ F 3 "" H 3150 11275 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:LED LED15
+L shark-rescue:LED-acheronSymbols LED15
 U 1 1 5D93FD91
 P 3425 11275
 F 0 "LED15" V 3300 11300 20  0000 L CNN
@@ -2909,7 +2908,7 @@ F 3 "" H 3425 11275 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:LED LED16
+L shark-rescue:LED-acheronSymbols LED16
 U 1 1 5D93FD98
 P 3700 11275
 F 0 "LED16" V 3575 11300 20  0000 L CNN
@@ -2920,7 +2919,7 @@ F 3 "" H 3700 11275 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:LED LED17
+L shark-rescue:LED-acheronSymbols LED17
 U 1 1 5D93FD9F
 P 3975 11275
 F 0 "LED17" V 3850 11300 20  0000 L CNN
@@ -2931,7 +2930,7 @@ F 3 "" H 3975 11275 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:LED LED18
+L shark-rescue:LED-acheronSymbols LED18
 U 1 1 5D93FDA6
 P 4250 11275
 F 0 "LED18" V 4125 11300 20  0000 L CNN
@@ -2942,7 +2941,7 @@ F 3 "" H 4250 11275 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:LED LED19
+L shark-rescue:LED-acheronSymbols LED19
 U 1 1 5D93FDAD
 P 4525 11275
 F 0 "LED19" V 4400 11300 20  0000 L CNN
@@ -2953,7 +2952,7 @@ F 3 "" H 4525 11275 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:LED LED20
+L shark-rescue:LED-acheronSymbols LED20
 U 1 1 5D93FDB4
 P 4800 11275
 F 0 "LED20" V 4675 11300 20  0000 L CNN
@@ -2964,7 +2963,7 @@ F 3 "" H 4800 11275 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:LED LED21
+L shark-rescue:LED-acheronSymbols LED21
 U 1 1 5D93FDBB
 P 5075 11275
 F 0 "LED21" V 4950 11300 20  0000 L CNN
@@ -2975,7 +2974,7 @@ F 3 "" H 5075 11275 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:LED LED22
+L shark-rescue:LED-acheronSymbols LED22
 U 1 1 5D93FDC2
 P 5350 11275
 F 0 "LED22" V 5225 11300 20  0000 L CNN
@@ -2986,7 +2985,7 @@ F 3 "" H 5350 11275 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:LED LED23
+L shark-rescue:LED-acheronSymbols LED23
 U 1 1 5D93FDC9
 P 5625 11275
 F 0 "LED23" V 5500 11300 20  0000 L CNN
@@ -2997,7 +2996,7 @@ F 3 "" H 5625 11275 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:LED LED24
+L shark-rescue:LED-acheronSymbols LED24
 U 1 1 5D93FDD0
 P 5900 11275
 F 0 "LED24" V 5775 11300 20  0000 L CNN
@@ -3008,7 +3007,7 @@ F 3 "" H 5900 11275 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:LED LED25
+L shark-rescue:LED-acheronSymbols LED25
 U 1 1 5DABCF34
 P 2875 11975
 F 0 "LED25" V 2750 12000 20  0000 L CNN
@@ -3019,7 +3018,7 @@ F 3 "" H 2875 11975 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:LED LED26
+L shark-rescue:LED-acheronSymbols LED26
 U 1 1 5DABCF3B
 P 3150 11975
 F 0 "LED26" V 3025 12000 20  0000 L CNN
@@ -3030,7 +3029,7 @@ F 3 "" H 3150 11975 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:LED LED27
+L shark-rescue:LED-acheronSymbols LED27
 U 1 1 5DABCF42
 P 3425 11975
 F 0 "LED27" V 3300 12000 20  0000 L CNN
@@ -3041,7 +3040,7 @@ F 3 "" H 3425 11975 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:LED LED28
+L shark-rescue:LED-acheronSymbols LED28
 U 1 1 5DABCF49
 P 3700 11975
 F 0 "LED28" V 3575 12000 20  0000 L CNN
@@ -3052,7 +3051,7 @@ F 3 "" H 3700 11975 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:LED LED29
+L shark-rescue:LED-acheronSymbols LED29
 U 1 1 5DABCF50
 P 3975 11975
 F 0 "LED29" V 3850 12000 20  0000 L CNN
@@ -3063,7 +3062,7 @@ F 3 "" H 3975 11975 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:LED LED30
+L shark-rescue:LED-acheronSymbols LED30
 U 1 1 5DABCF57
 P 4250 11975
 F 0 "LED30" V 4125 12000 20  0000 L CNN
@@ -3074,7 +3073,7 @@ F 3 "" H 4250 11975 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:LED LED31
+L shark-rescue:LED-acheronSymbols LED31
 U 1 1 5DABCF5E
 P 4525 11975
 F 0 "LED31" V 4400 12000 20  0000 L CNN
@@ -3085,7 +3084,7 @@ F 3 "" H 4525 11975 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:LED LED32
+L shark-rescue:LED-acheronSymbols LED32
 U 1 1 5DABCF65
 P 4800 11975
 F 0 "LED32" V 4675 12000 20  0000 L CNN
@@ -3096,7 +3095,7 @@ F 3 "" H 4800 11975 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:LED LED33
+L shark-rescue:LED-acheronSymbols LED33
 U 1 1 5DABCF6C
 P 5075 11975
 F 0 "LED33" V 4950 12000 20  0000 L CNN
@@ -3107,7 +3106,7 @@ F 3 "" H 5075 11975 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:LED LED34
+L shark-rescue:LED-acheronSymbols LED34
 U 1 1 5DABCF73
 P 5350 11975
 F 0 "LED34" V 5225 12000 20  0000 L CNN
@@ -3118,7 +3117,7 @@ F 3 "" H 5350 11975 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:LED LED35
+L shark-rescue:LED-acheronSymbols LED35
 U 1 1 5DABCF7A
 P 5625 11975
 F 0 "LED35" V 5500 12000 20  0000 L CNN
@@ -3129,7 +3128,7 @@ F 3 "" H 5625 11975 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:LED LED36
+L shark-rescue:LED-acheronSymbols LED36
 U 1 1 5DABCF81
 P 5900 11975
 F 0 "LED36" V 5775 12000 20  0000 L CNN
@@ -3140,7 +3139,7 @@ F 3 "" H 5900 11975 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:LED LED37
+L shark-rescue:LED-acheronSymbols LED37
 U 1 1 5DAFB63A
 P 2875 12650
 F 0 "LED37" V 2750 12675 20  0000 L CNN
@@ -3151,7 +3150,7 @@ F 3 "" H 2875 12650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:LED LED38
+L shark-rescue:LED-acheronSymbols LED38
 U 1 1 5DAFB641
 P 3150 12650
 F 0 "LED38" V 3025 12675 20  0000 L CNN
@@ -3162,7 +3161,7 @@ F 3 "" H 3150 12650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:LED LED39
+L shark-rescue:LED-acheronSymbols LED39
 U 1 1 5DAFB648
 P 3425 12650
 F 0 "LED39" V 3300 12675 20  0000 L CNN
@@ -3173,7 +3172,7 @@ F 3 "" H 3425 12650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:LED LED40
+L shark-rescue:LED-acheronSymbols LED40
 U 1 1 5DAFB64F
 P 3700 12650
 F 0 "LED40" V 3575 12675 20  0000 L CNN
@@ -3184,7 +3183,7 @@ F 3 "" H 3700 12650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:LED LED41
+L shark-rescue:LED-acheronSymbols LED41
 U 1 1 5DAFB656
 P 3975 12650
 F 0 "LED41" V 3850 12675 20  0000 L CNN
@@ -3195,7 +3194,7 @@ F 3 "" H 3975 12650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:LED LED42
+L shark-rescue:LED-acheronSymbols LED42
 U 1 1 5DAFB65D
 P 4250 12650
 F 0 "LED42" V 4125 12675 20  0000 L CNN
@@ -3206,7 +3205,7 @@ F 3 "" H 4250 12650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:LED LED43
+L shark-rescue:LED-acheronSymbols LED43
 U 1 1 5DAFB664
 P 4525 12650
 F 0 "LED43" V 4400 12675 20  0000 L CNN
@@ -3217,7 +3216,7 @@ F 3 "" H 4525 12650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:LED LED44
+L shark-rescue:LED-acheronSymbols LED44
 U 1 1 5DAFB66B
 P 4800 12650
 F 0 "LED44" V 4675 12675 20  0000 L CNN
@@ -3228,7 +3227,7 @@ F 3 "" H 4800 12650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:LED LED45
+L shark-rescue:LED-acheronSymbols LED45
 U 1 1 5DAFB672
 P 5075 12650
 F 0 "LED45" V 4950 12675 20  0000 L CNN
@@ -3239,7 +3238,7 @@ F 3 "" H 5075 12650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:LED LED46
+L shark-rescue:LED-acheronSymbols LED46
 U 1 1 5DAFB679
 P 5350 12650
 F 0 "LED46" V 5225 12675 20  0000 L CNN
@@ -3250,7 +3249,7 @@ F 3 "" H 5350 12650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:LED LED47
+L shark-rescue:LED-acheronSymbols LED47
 U 1 1 5DAFB680
 P 5625 12650
 F 0 "LED47" V 5500 12675 20  0000 L CNN
@@ -3261,7 +3260,7 @@ F 3 "" H 5625 12650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:LED LED48
+L shark-rescue:LED-acheronSymbols LED48
 U 1 1 5DAFB687
 P 5900 12650
 F 0 "LED48" V 5775 12675 20  0000 L CNN
@@ -3280,7 +3279,7 @@ Connection ~ 6175 11425
 Wire Wire Line
 	6175 11425 6175 12125
 $Comp
-L acheronSymbols:LED LED49
+L shark-rescue:LED-acheronSymbols LED49
 U 1 1 5DD1C8D4
 P 4075 12650
 F 0 "LED49" V 3950 12675 20  0000 L CNN
@@ -3291,7 +3290,7 @@ F 3 "" H 4075 12650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:LED LED50
+L shark-rescue:LED-acheronSymbols LED50
 U 1 1 5DD1CD7B
 P 4350 12650
 F 0 "LED50" V 4225 12675 20  0000 L CNN
@@ -3302,7 +3301,7 @@ F 3 "" H 4350 12650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:LED LED51
+L shark-rescue:LED-acheronSymbols LED51
 U 1 1 5DD1D242
 P 4625 12650
 F 0 "LED51" V 4500 12675 20  0000 L CNN
@@ -3313,7 +3312,7 @@ F 3 "" H 4625 12650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:AO4406AL Q1
+L shark-rescue:AO4406AL-acheronSymbols Q1
 U 1 1 5DDB1E0B
 P 2875 13000
 F 0 "Q1" H 2981 13022 50  0000 L CNN
@@ -3326,7 +3325,7 @@ $EndComp
 Text Notes 18225 12825 0    100  Italic 20
 ESD inrush\nProtection
 $Comp
-L Mechanical:MountingHole L1
+L shark-rescue:MountingHole-Mechanical L1
 U 1 1 5C54F135
 P 17025 3200
 F 0 "L1" H 17125 3246 50  0000 L CNN
@@ -3337,7 +3336,7 @@ F 3 "~" H 17025 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small CSI1
+L shark-rescue:C_Small-Device CSI1
 U 1 1 5C44CEDC
 P 16250 10200
 F 0 "CSI1" V 16350 10200 39  0000 C CNN
@@ -3348,7 +3347,7 @@ F 3 "~" H 16250 10200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:D DLDO1
+L shark-rescue:D-Device DLDO1
 U 1 1 5C44EA7A
 P 16600 9375
 F 0 "DLDO1" V 16569 9454 31  0000 L CNN
@@ -3359,7 +3358,7 @@ F 3 "~" H 16600 9375 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small CSO1
+L shark-rescue:C_Small-Device CSO1
 U 1 1 5C44DAFA
 P 16950 10225
 F 0 "CSO1" V 17050 10225 39  0000 C CNN
@@ -3404,7 +3403,7 @@ Wire Wire Line
 Text GLabel 17250 9850 2    50   Output ~ 0
 3.3V
 $Comp
-L Regulator_Linear:MCP1700-3302E_SOT23 U2
+L shark-rescue:MCP1700-3302E_SOT23-Regulator_Linear U2
 U 1 1 5D83639E
 P 16600 9850
 F 0 "U2" H 16600 10048 31  0000 C CNN
@@ -3437,7 +3436,7 @@ $EndComp
 Wire Wire Line
 	16600 10525 16600 10450
 $Comp
-L Switch:SW_Push SRST1
+L shark-rescue:SW_Push-Switch SRST1
 U 1 1 5E070BED
 P 15725 8275
 F 0 "SRST1" H 15725 8475 31  0000 C CNN
@@ -3448,7 +3447,7 @@ F 3 "" H 15725 8475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D DRST1
+L shark-rescue:D-Device DRST1
 U 1 1 5E071566
 P 16225 8275
 F 0 "DRST1" V 16194 8354 31  0000 L CNN
@@ -3459,7 +3458,7 @@ F 3 "~" H 16225 8275 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small RRST1
+L shark-rescue:R_Small-Device RRST1
 U 1 1 5E07225E
 P 16500 8475
 F 0 "RRST1" V 16425 8400 31  0000 L CNN
@@ -3470,7 +3469,7 @@ F 3 "~" H 16500 8475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small CRST1
+L shark-rescue:C_Small-Device CRST1
 U 1 1 5E072855
 P 16650 8475
 F 0 "CRST1" H 16600 8400 31  0000 R CNN
@@ -3481,7 +3480,7 @@ F 3 "~" H 16650 8475 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small CRST2
+L shark-rescue:C_Small-Device CRST2
 U 1 1 5E0C1B45
 P 16650 7525
 F 0 "CRST2" H 16850 7475 31  0000 R CNN
@@ -3492,7 +3491,7 @@ F 3 "~" H 16650 7525 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small RDP1
+L shark-rescue:R_Small-Device RDP1
 U 1 1 5E5BB8E0
 P 16150 13200
 F 0 "RDP1" V 16075 13135 31  0000 L CNN
@@ -3572,7 +3571,7 @@ F 3 "" H 16650 7375 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small RCC1
+L shark-rescue:R_Small-Device RCC1
 U 1 1 5EA2CF13
 P 9425 10175
 F 0 "RCC1" V 9350 10115 31  0000 L CNN
@@ -3583,7 +3582,7 @@ F 3 "~" H 9425 10175 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small RPU1
+L shark-rescue:R_Small-Device RPU1
 U 1 1 5EA80DA8
 P 9575 11225
 F 0 "RPU1" V 9650 11150 31  0000 L CNN
@@ -3670,7 +3669,7 @@ Wire Wire Line
 	11550 11925 11550 11875
 Connection ~ 11550 11875
 $Comp
-L LED:WS2812B RGB1
+L shark-rescue:WS2812B-LED RGB1
 U 1 1 5CBC7203
 P 11550 12225
 F 0 "RGB1" H 11625 12525 31  0000 L CNN
@@ -3681,7 +3680,7 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 11650 11850 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B RGB2
+L shark-rescue:WS2812B-LED RGB2
 U 1 1 5CBC9CDA
 P 12200 12225
 F 0 "RGB2" H 12275 12525 31  0000 L CNN
@@ -3692,7 +3691,7 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 12300 11850 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B RGB3
+L shark-rescue:WS2812B-LED RGB3
 U 1 1 5CBC9F08
 P 12850 12225
 F 0 "RGB3" H 12925 12525 31  0000 L CNN
@@ -3703,7 +3702,7 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 12950 11850 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B RGB4
+L shark-rescue:WS2812B-LED RGB4
 U 1 1 5CBCA148
 P 13500 12225
 F 0 "RGB4" H 13575 12525 31  0000 L CNN
@@ -3714,7 +3713,7 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 13600 11850 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B RGB8
+L shark-rescue:WS2812B-LED RGB8
 U 1 1 5CBCA378
 P 13500 13150
 F 0 "RGB8" H 13575 13450 31  0000 L CNN
@@ -3725,7 +3724,7 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 13600 12775 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B RGB7
+L shark-rescue:WS2812B-LED RGB7
 U 1 1 5CBCA5C2
 P 12850 13150
 F 0 "RGB7" H 12925 13450 31  0000 L CNN
@@ -3736,7 +3735,7 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 12950 12775 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B RGB5
+L shark-rescue:WS2812B-LED RGB5
 U 1 1 5CBCAA20
 P 11550 13150
 F 0 "RGB5" H 11625 13450 31  0000 L CNN
@@ -3747,7 +3746,7 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 11650 12775 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B RGB6
+L shark-rescue:WS2812B-LED RGB6
 U 1 1 5CBCA7EA
 P 12200 13150
 F 0 "RGB6" H 12275 13450 31  0000 L CNN
@@ -3853,7 +3852,7 @@ Wire Notes Line
 Text GLabel 15525 8275 0    50   Input ~ 0
 3.3V
 $Comp
-L Mechanical:MountingHole L2
+L shark-rescue:MountingHole-Mechanical L2
 U 1 1 5C525928
 P 17025 3425
 F 0 "L2" H 17125 3471 50  0000 L CNN
@@ -3864,7 +3863,7 @@ F 3 "~" H 17025 3425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole L3
+L shark-rescue:MountingHole-Mechanical L3
 U 1 1 5C66B5D5
 P 17025 3650
 F 0 "L3" H 17125 3696 50  0000 L CNN
@@ -3875,7 +3874,7 @@ F 3 "~" H 17025 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole L4
+L shark-rescue:MountingHole-Mechanical L4
 U 1 1 5C66D4A4
 P 17025 3875
 F 0 "L4" H 17125 3921 50  0000 L CNN
@@ -3886,7 +3885,7 @@ F 3 "~" H 17025 3875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole L5
+L shark-rescue:MountingHole-Mechanical L5
 U 1 1 5C6AAB95
 P 17025 4100
 F 0 "L5" H 17125 4146 50  0000 L CNN
@@ -3897,7 +3896,7 @@ F 3 "~" H 17025 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Rotary_Encoder_Switch ROT1
+L shark-rescue:Rotary_Encoder_Switch-Device ROT1
 U 1 1 5C6BA4A8
 P 16700 6450
 F 0 "ROT1" H 16700 6817 50  0000 C CNN
@@ -3925,7 +3924,7 @@ F 3 "" H 16400 6450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small CB1
+L shark-rescue:C_Small-Device CB1
 U 1 1 5CF05817
 P 15125 6475
 F 0 "CB1" H 15250 6450 30  0000 C CNN
@@ -3936,7 +3935,7 @@ F 3 "~" H 15125 6475 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small CA1
+L shark-rescue:C_Small-Device CA1
 U 1 1 5CF063CC
 P 15550 6475
 F 0 "CA1" H 15675 6450 30  0000 C CNN
@@ -3969,7 +3968,7 @@ F 3 "" H 15550 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small RA1
+L shark-rescue:R_Small-Device RA1
 U 1 1 5CF07838
 P 15550 6200
 F 0 "RA1" V 15625 6150 31  0000 L CNN
@@ -3988,7 +3987,7 @@ Wire Wire Line
 Wire Wire Line
 	15125 6575 15125 6600
 $Comp
-L Device:R_Small RB2
+L shark-rescue:R_Small-Device RB2
 U 1 1 5D1DE77E
 P 15125 5950
 F 0 "RB2" V 15050 5900 31  0000 L CNN
@@ -3999,7 +3998,7 @@ F 3 "~" H 15125 5950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small RA2
+L shark-rescue:R_Small-Device RA2
 U 1 1 5D1DF5E6
 P 15550 5950
 F 0 "RA2" V 15625 5900 31  0000 L CNN
@@ -4078,7 +4077,7 @@ Connection ~ 1975 6025
 Wire Wire Line
 	1975 6025 1975 7050
 $Comp
-L Device:Rotary_Encoder_Switch ROT2
+L shark-rescue:Rotary_Encoder_Switch-Device ROT2
 U 1 1 5C8DA461
 P 16700 5825
 F 0 "ROT2" H 16700 6192 50  0000 C CNN
@@ -4348,7 +4347,7 @@ Connection ~ 4525 10700
 Wire Wire Line
 	4525 10700 4800 10700
 $Comp
-L Connector:Conn_01x04_Male J2
+L shark-rescue:Conn_01x04_Male-Connector J2
 U 1 1 5C8FE384
 P 11150 9625
 F 0 "J2" H 11256 9903 50  0000 C CNN
@@ -4394,7 +4393,7 @@ Wire Notes Line width 20
 Wire Notes Line width 20
 	10700 10225 10700 9150
 $Comp
-L Connector:Conn_01x04_Male J3
+L shark-rescue:Conn_01x04_Male-Connector J3
 U 1 1 5D18EBC8
 P 11150 10750
 F 0 "J3" H 11256 11028 50  0000 C CNN
@@ -4431,7 +4430,7 @@ Wire Notes Line width 20
 Text GLabel 11425 10950 2    50   Input ~ 0
 Extra4
 $Comp
-L Connector:Conn_01x04_Male J4
+L shark-rescue:Conn_01x04_Male-Connector J4
 U 1 1 5D3B4464
 P 13125 10750
 F 0 "J4" H 13231 11028 50  0000 C CNN
@@ -4472,7 +4471,7 @@ Wire Notes Line width 20
 Wire Notes Line width 20
 	16150 3000 16150 4775
 $Comp
-L Mechanical:MountingHole L6
+L shark-rescue:MountingHole-Mechanical L6
 U 1 1 5D02D130
 P 17025 4325
 F 0 "L6" H 17125 4371 50  0000 L CNN
@@ -4493,7 +4492,7 @@ Wire Wire Line
 Text GLabel 15500 3750 2    50   Input ~ 0
 CASE
 $Comp
-L Connector:Conn_01x06_Male J5
+L shark-rescue:Conn_01x06_Male-Connector J5
 U 1 1 5CF6EE3E
 P 13125 9600
 F 0 "J5" H 13225 10000 50  0000 C CNN
@@ -4514,7 +4513,7 @@ Wire Notes Line width 20
 Wire Notes Line width 20
 	12675 10200 12675 9125
 $Comp
-L Device:D DESD1
+L shark-rescue:D-Device DESD1
 U 1 1 5D0F26E7
 P 18525 12075
 F 0 "DESD1" V 18494 12154 31  0000 L CNN
@@ -4573,7 +4572,7 @@ Wire Notes Line width 20
 Wire Notes Line width 20
 	15025 8900 17450 8900
 $Comp
-L Transistor_BJT:DTC123J QRST1
+L shark-rescue:DTC123J-Transistor_BJT QRST1
 U 1 1 5D249555
 P 16000 7775
 F 0 "QRST1" V 16250 7775 30  0000 C CNN
@@ -4612,7 +4611,7 @@ Wire Wire Line
 Text GLabel 15700 12075 0    50   BiDi ~ 0
 D-Bus
 $Comp
-L Device:C_Small CUSB1
+L shark-rescue:C_Small-Device CUSB1
 U 1 1 5D7F45E2
 P 16450 12800
 F 0 "CUSB1" V 16350 12800 31  0000 C CNN
@@ -4660,7 +4659,7 @@ Connection ~ 9300 10825
 Wire Wire Line
 	16050 13200 16000 13200
 $Comp
-L Device:R_Small RDM1
+L shark-rescue:R_Small-Device RDM1
 U 1 1 5E5BA0B3
 P 16150 12075
 F 0 "RDM1" V 16075 12010 31  0000 L CNN
@@ -4700,7 +4699,7 @@ Wire Wire Line
 	8625 12375 8625 12325
 Connection ~ 8625 12325
 $Comp
-L acheronSymbols:TYPE-C-31-M12_13 J1
+L shark-rescue:TYPE-C-31-M12_13-acheronSymbols J1
 U 1 1 5D30D27B
 P 8625 10825
 F 0 "J1" H 8732 12242 50  0000 C CNN
@@ -4744,7 +4743,7 @@ Wire Wire Line
 Wire Wire Line
 	16450 12650 16400 12650
 $Comp
-L Power_Protection:USBLC6-2SC6 U3
+L shark-rescue:USBLC6-2SC6-Power_Protection U3
 U 1 1 5D37D7BE
 P 15900 12650
 F 0 "U3" V 15550 13150 50  0000 L CNN
@@ -4767,7 +4766,7 @@ Wire Notes Line width 20
 Wire Notes Line width 20
 	22325 2450 22325 8675
 $Comp
-L Device:Crystal_GND24 Y1
+L shark-rescue:Crystal_GND24-Device Y1
 U 1 1 5FDEF82F
 P 18825 7600
 F 0 "Y1" H 18900 7875 50  0000 L CNN
@@ -4822,7 +4821,7 @@ Wire Wire Line
 Wire Wire Line
 	18475 7950 18475 7900
 $Comp
-L Device:C_Small CX2
+L shark-rescue:C_Small-Device CX2
 U 1 1 5BEDBF42
 P 19175 7800
 F 0 "CX2" H 19267 7846 50  0000 L CNN
@@ -4833,7 +4832,7 @@ F 3 "~" H 19175 7800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:STM32F303-LQFP48 U1
+L shark-rescue:STM32F303-LQFP48-acheronSymbols U1
 U 1 1 5DAB1757
 P 20300 4975
 F 0 "U1" H 20250 5150 60  0000 C CNB
@@ -4996,7 +4995,7 @@ D-
 Text GLabel 19050 4175 0    50   BiDi ~ 0
 D+
 $Comp
-L Device:C_Small CVB6
+L shark-rescue:C_Small-Device CVB6
 U 1 1 5CFBDEE9
 P 21100 2900
 F 0 "CVB6" H 21150 2825 10  0000 C CNN
@@ -5007,7 +5006,7 @@ F 3 "~" H 21100 2900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small CVB5
+L shark-rescue:C_Small-Device CVB5
 U 1 1 5ED253F3
 P 19925 2900
 F 0 "CVB5" H 19875 2975 10  0000 C CNN
@@ -5018,7 +5017,7 @@ F 3 "~" H 19925 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small CVB4
+L shark-rescue:C_Small-Device CVB4
 U 1 1 5D036CC3
 P 20075 2900
 F 0 "CVB4" H 20125 2825 10  0000 C CNN
@@ -5031,7 +5030,7 @@ $EndComp
 Text GLabel 21175 3100 2    50   BiDi ~ 0
 3.3V
 $Comp
-L Device:C_Small CVB3
+L shark-rescue:C_Small-Device CVB3
 U 1 1 5ED24FA7
 P 20600 2900
 F 0 "CVB3" H 20625 2975 10  0000 L CNN
@@ -5042,7 +5041,7 @@ F 3 "~" H 20600 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small CVB2
+L shark-rescue:C_Small-Device CVB2
 U 1 1 5ED24D83
 P 20300 2900
 F 0 "CVB2" H 20325 2975 10  0000 L CNN
@@ -5053,7 +5052,7 @@ F 3 "~" H 20300 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small CVB1
+L shark-rescue:C_Small-Device CVB1
 U 1 1 5ED231C7
 P 20900 2900
 F 0 "CVB1" H 20825 2825 10  0000 L CNN
@@ -5064,7 +5063,7 @@ F 3 "~" H 20900 2900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small CX1
+L shark-rescue:C_Small-Device CX1
 U 1 1 5BEDBE98
 P 18475 7800
 F 0 "CX1" H 18567 7846 50  0000 L CNN
@@ -5294,7 +5293,7 @@ Wire Notes Line width 20
 Wire Notes Line width 20
 	17600 5300 14575 5300
 $Comp
-L Device:R_Small RB1
+L shark-rescue:R_Small-Device RB1
 U 1 1 5CFD7290
 P 15125 6200
 F 0 "RB1" V 15050 6150 31  0000 L CNN
@@ -5307,7 +5306,7 @@ $EndComp
 Wire Wire Line
 	9225 10175 9325 10175
 $Comp
-L Device:R_Small RCC2
+L shark-rescue:R_Small-Device RCC2
 U 1 1 5D8FBDA5
 P 9425 10375
 F 0 "RCC2" V 9350 10315 31  0000 L CNN
